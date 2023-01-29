@@ -1,0 +1,7 @@
+<div>app component</div>
+<!-- <canvas #canvas width="800" height="600"></canvas> -->
+<button (click)="start()">start</button>
+<div style="position: absolute; width: 300px; height: 300px;">
+      <gameObject *ngFor="let gameObject of container" [gameObject]="gameObject"></gameObject>
+</div>
+
